@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { PHOTO_URL } from "../utils/constants"; 
+
 
 const Account = () => {
   const [user, setUser] = useState(null);
@@ -23,8 +23,8 @@ const Account = () => {
         {/* Profile */}
         <div className="profile-row">
           <div className="avatar-wrap">
-            <img className="avatar" src={PHOTO_URL} alt="profile" />
-        
+            <img className="avatar" src="./ran.png" alt="profile" />
+
           </div>
 
           <div className="profile-info">
